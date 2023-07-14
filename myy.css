@@ -1,0 +1,88 @@
+body{
+    background-image: url(bk.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    
+}
+header{
+    background-color: black;
+}
+.u{ color: white;}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid1,.grid2,.grid3{
+  display: grid;
+  grid-template-columns: auto;
+}
+.item1,.item2,.item3,.item4,.item5,.item6,.itema{
+    width: 400px;
+    height: 100px;
+    background-color:transparent;
+    border: 3px solid grey;
+}
+.item1{
+    color: white;
+    display: flex;
+    background-color: transparent;
+}
+.item2{
+    color: white;
+    display: flex;
+    background-color: transparent;
+}
+.item3{
+    color: white;
+    display: flex;
+    background-color: transparent;
+
+}
+.item4{
+    color: white;
+    display: flex;
+    background-color: transparent;
+
+}
+.item5{
+    color: white;
+    display: flex;
+    background-color: transparent;
+}
+.itema{
+    text-align: center;
+    height: 50px;
+}
+.item6{
+    text-align: center;
+    height: 50px;
+}
+.down{
+margin-left: 70px;
+font-size: 15px;
+}
+h2{
+    color: white;
+    margin-left: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: green;
+}
+.btn{
+    color: white;
+}
+#iteme{
+    width: 100%;
+    height:700px;
+    background-color: black;
+    overflow: auto auto;
+    white-space: nowrap;
+    image:autoplay;
+}
+.slide{
+        display: inline-block;    
+}

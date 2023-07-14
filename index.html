@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Website Icon" href="logo.jpg">
+    <title>Anime</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        body{
+            text-align: center;
+            background-image: url(bk.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            color: white;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            background-color: black;
+            width: 10px;
+            height: 5%;
+            gap: 20px;
+        }
+        .items1,.items2,.items3,.items4,.items5,.items6,.items7,.items8,.items9{
+            color: black;
+            background-color:gray;
+            border: 1px solid rgb(247, 240, 240);
+            padding: 30px;
+            text-align: center;
+            font-size: 30px;
+           height: 260px;
+           width: 300px;
+           border-radius: 10px;
+           font-size: 12px;
+
+        }
+        h2{
+            color: white;
+            margin-right: 80%;
+        }
+        h3{
+            color: black;
+            
+        }
+        .i{
+            font-size: 15px;
+        }
+        button{
+            color: white;
+            background-color: black;
+        }
+        button:hover{
+            background-color: red;
+        }
+        .ani{
+            width: 1500px;
+            height: 700px;
+            background-image: url(1.jpg);
+            animation-name:box;
+            animation-duration: 25s;
+            animation-delay: 5s;
+            background-size: cover;
+            background-repeat: no-repeat;
+            animation-iteration-count: infinite;
+        }
+        @keyframes box{
+            0%{background-image: url(1.jpg);}
+            25%{background-image:url(2.jpg) ;}
+            50%{background-image: url(3.jpg);}
+            75%{background-image: url(4\,jpg.webp);}
+            100%{background-image: url(5.jpg);}
+        }
+     footer{
+        text-align: center;
+        color: white;
+        height: auto;
+        width: auto;
+        background-color: transparent;
+     }
+     
+     .home_social {
+  display: flex;
+  flex-direction: row;
+   justify-content: center;
+}
+
+.home_social-icon {
+    display: inline;
+  width: max-content;
+  margin-bottom: var(--mb-2);
+  font-size: 1.5rem;
+  color: var(--second-color);
+}
+
+.home_social-icon:hover {
+  color: var(--first-color);
+}
+
+.home_img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 80px;
+}
+
+.home_img img {
+  margin-bottom: 20px;
+  margin-left: 80px;
+  width: 80%;
+}
+
+/* BUTTONS */
+.button {
+  display: inline-block;
+  margin: 10px;
+  color: #fff;
+  padding: 0.75rem 2.5rem;
+  font-weight: var(--font-semi);
+  border-radius: 0.5rem;
+  background: var(--gardient-color);
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+}
+
+.button:hover {
+  box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
+  color: #000;
+}
+.gok{
+    margin: auto;
+}
+.my{
+    margin: auto;
+    
+}
+a:hover{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+.lif{
+    text-decoration: none;
+}
+    </style>
+</head>
+<body>
+    <h1>Anime</h1>
+    <header>
+        <nav>
+            <ul>
+                <h2 class="my"><a href="home.html" class="lif">Anime list</a></h2>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <div class="ani"></div>
+    </div>
+    <br>
+    <h2>Popular Anime</h2>
+    <div class="grid">
+        <div class="items1">
+            <img src="sk.jpg" width="300px">
+            <div class="i">
+            <h3>One Piece</h3>
+            </div>
+            <p>One Piece (stylized in all caps) is a Japanese manga series written and illustrated by Eiichiro Oda. It has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump since July 1997, with its individual chapters compiled into 105 tankōbon volumes as of March 2023....<a href="https://en.wikipedia.org/wiki/One_Piece">Read more</a></p>
+            <br>
+            <a href="https://zoro.to/one-piece-100" target="_blank">
+            <button type="submit">watch now</button>
+            </a>
+        </div>
+        <div class="items2">
+            <img src="ds.jpg" width="210px">
+            <div class="i">
+                <h3>Demon Slayer</h3>
+            </div>
+            <p>Demon Slayer: Kimetsu no Yaiba (鬼滅の刃, Kimetsu no Yaiba, "Blade of Demon Destruction"[4]) is a Japanese manga series written and illustrated by Koyoharu Gotouge. It was serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump from February 2016 to May 2020....<a href="https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba">Read more</a></p>
+            <a href="https://zoro.to/demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc-18056" target="_blank">
+                <button type="submit">watch now</button>
+            </a>
+        </div>
+        <div class="items3">
+            <img src="naruto.jpg" width="250px">
+            <div class="i">
+                <h3>Naruto</h3>
+            </div>
+            <p>Naruto[a] is a Japanese manga series written and illustrated by Masashi Kishimoto. It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village..<a href="https://en.wikipedia.org/wiki/Naruto">Read more</a></p>
+            <a href="https://sanji.to/naruto-shippuden-355">
+                <button type="submit">watch now</button>
+            </a>
+        </div>
+        <div class="items4">
+            <img src="hell.jog.jpeg" width="220px">
+            <div class="i">
+                <h3>Hell's Paradise</h3>
+            </div>
+            <p>Hell's Paradise: Jigokuraku (Japanese: 地獄楽, Hepburn: Jigokuraku) is a Japanese manga series written and illustrated by Yuji Kaku. It was serialized weekly for free on Shueisha's Shōnen Jump+ application and website..<a href="https://en.wikipedia.org/wiki/Hell's_Paradise:_Jigokuraku">Read more</a></p>
+            <a href="https://sanji.to/hells-paradise-18332">
+                <button type="submit">watch now</button>
+            </a>
+        </div>
+        <div class="items5">
+            <img src="black.jpg" width="250px">
+            <div class="i">
+                <h3>Black Clover</h3>
+            </div>
+            <p>lack Clover (Japanese: ブラッククローバー, Hepburn: Burakku Kurōbā) is a Japanese manga series written and illustrated by Yūki Tabata. It has been serialized..<a href="">Read more</a></p>
+            <a href="https://sanji.to/black-clover-2404">
+                <button type="submit">watch now</button>
+            </a>
+        </div>
+        <div class="items6">
+            <img src="bleach.jpg" width="200px">
+            <div class="i">
+                <h3>Bleach</h3>
+            </div>
+            <p>Bleach (stylized in all caps) is a Japanese anime television series based on Tite Kubo's original manga series of the same name...<a href="https://sanji.to/bleach-806">Read more</a></p>
+            <a href="">
+                <button type="submit">watch now</button>
+            </a>
+        </div>
+        <div class="items7">
+            <img src="juju.jpeg" width="250px">
+            <div class="i">
+                <h3>
+                    Jujutsu Kaisen
+                </h3>
+            </div>
+            <p>Jujutsu Kaisen is a Japanese manga series written and illustrated by Gege Akutami. It has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump since March 2018, with its chapters coll..<a href="https://en.wikipedia.org/wiki/Jujutsu_Kaisen">Read more</a></p>
+            <a href="https://sanji.to/jujutsu-kaisen-tv-534">
+                <button type="submit">watch now</button>
+            </a>
+        </div>
+        <div class="items8">
+            <img src="chainsaw.jpg" width="220px">
+            <div class="i">
+                <h3>Chainsawman</h3>
+            </div>
+            <p>Chainsaw Man (Japanese: チェンソーマン, Hepburn: Chensō Man) is a Japanese manga series written and illustrated by Tatsuki Fujimoto. Its first arc..<a href="https://en.wikipedia.org/wiki/Chainsaw_Man">Read more</a></p>
+            <a href="https://sanji.to/chainsaw-man-17406">
+                <button type="submit">watch now</button>
+            </a>
+        </div>
+    </div>
+    <br>
+    <footer>
+        <h2 class="gok">Follow us on</h2>
+        <br>
+        <div class="home_social">
+            <a href="https://www.linkedin.com/in/m-gokul-narayana-297869269/" target="_blank" class="home_social-icon"
+              data-aos="fade-down" data-aos-delay="200"><i class="bx bxl-linkedin"></i></a>   
+            <a href="https://github.com/GokulNarayana-30" target="_blank" class="home_social-icon" data-aos="fade-down"
+              data-aos-delay="250"><i class="bx bxl-github"></i></a>
+            <a href="https://twitter.com/narayana_2002" target="_blank" class="home_social-icon" data-aos="fade-down"
+              data-aos-delay="300"><i class="bx bxl-twitter"></i></a>
+              <a href="https://github.com/GokulNarayana-30/grid" target="_blank" class="home_social-icon" data-aos="fade-down"
+              data-aos-delay="300"><i class="bx bxl-instagram"></i></a>
+          </div>
+      </footer>
+    
+</body>
+</htm
